@@ -41,7 +41,7 @@ class GalleryFragment : Fragment() {
 
 override fun onCreateView(inflater: LayoutInflater,
                           container: ViewGroup?, savedInstanceState: Bundle?): View?
-        = inflater.inflate(R.layout.activity_main, container, false).apply {
+        = inflater.inflate(R.layout.fragment_gallery, container, false).apply {
 
     // Variable and constants declaration
     val btnShow = findViewById<Button>(R.id.btnShow)
